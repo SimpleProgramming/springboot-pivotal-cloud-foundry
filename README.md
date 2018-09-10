@@ -3,15 +3,15 @@
 A simple example demonstrating deploy Spring Boot Application in Pivotal Cloud Foundry and make use of 
 the Pivotal's managed services
 
-Open source, PAAS, Can run it on public or private environment. 
-it provides you On demand network access to shared resources like network, storage, app, services, servers. 
-it is easy to provision and release on demand
+ - PCF is a Open source, PAAS, which can run as public or private cloud. 
+ - It provides you On demand network access to shared resources like network, storage, app, services, servers. 
+ - It is easy to provision and release on demand
 
 # Cloud Computing
  - SAAS - you will be using the providers software, can be used in web, mobile, tablet. there is No access to 
 underlying cloud infrastructure
  
- - SAAS - you will be using the provider tools to deploy or configure the application hosting 
+ - PAAS - you will be using the provider tools to deploy or configure the application hosting 
 environment(manage the application and data). but No access to underlying cloud infrastructure. 
 CF falls under this model. Another example would be AWS Elastic Bean Stalk . Don’t have to worry about 
 the traffic or scaling or hardware or operating system
