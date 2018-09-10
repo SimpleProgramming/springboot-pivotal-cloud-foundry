@@ -1,0 +1,10 @@
+applications:
+- name: springboot-pivotal-postgresql
+  path: target/springboot-pivotal-cloud-foundry-0.0.1-SNAPSHOT.jar
+  buildpack: https://github.com/cloudfoundry/java-buildpack.git
+  instances: 1
+  memory: 1G
+  env:
+    spring_jpa_hibernate_ddl-auto: create
+  services:
+  - pivotal-postgresql
